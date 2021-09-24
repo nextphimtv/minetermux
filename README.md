@@ -1,0 +1,2 @@
+# minetermux
+mine on termux
