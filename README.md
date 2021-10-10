@@ -2,7 +2,10 @@
 mine on termux
 
 <pre><code>
-pkg install proot-distro && proot-distro install debian && proot-distro login debian && sudo apt-get git install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential && git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && cd && ./ccminer/ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RHuJkbWF4tv2g8Kq2FNbuTKVA7KyUJ4BLL.CC5 -p x -t 3
+pkg update -y && pkg upgrade -y && pkg install nano proot-distro && proot-distro install debian && proot-distro login debian
+</code></pre>
+<pre><code>
+sudo apt-get git install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential && git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && cd && ./ccminer/ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RHuJkbWF4tv2g8Kq2FNbuTKVA7KyUJ4BLL.CC5 -p x -t 3
 </code></pre>
 
  Autorun Termux
