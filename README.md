@@ -62,27 +62,34 @@ CLOUD SHELL GOOGLE ON TERMUX
 
 GOOGLE CLOUD CONSOLE/SHELL OPEN SSH USING GCLOUD IN TERMUX
 
-1. apt update
+<pre><code>
+apt update
 
-2. apt upgrade
+apt upgrade
 
-3. pkg update
+pkg update
 
-4. pkg install openssh
+pkg install openssh
 
-5. pkg install python
+pkg install python
 
-6. curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-354.0.0-linux-arm.tar.gz
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-354.0.0-linux-arm.tar.gz
 
 Linux PC curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-358.0.0-linux-x86_64.tar.gz
 
-7. tar -zxvf google-cloud-sdk-354.0.0-linux-arm.tar.gz
-
+tar -zxvf google-cloud-sdk-354.0.0-linux-arm.tar.gz
+</code></pre>
 START LOGIN SHELL
 
-8.  ./google-cloud-sdk/bin/gcloud auth login
+<pre><code>
+./google-cloud-sdk/bin/gcloud auth login
+</code></pre>
 
-9.  ./google-cloud-sdk/bin/gcloud cloud-shell ssh
+<pre><code>
+./google-cloud-sdk/bin/gcloud cloud-shell ssh
+</code></pre>
+ (optional)
 
-10. (optional)
+<pre><code>
 ./google-cloud-sdk/bin/gcloud init
+</code></pre>
