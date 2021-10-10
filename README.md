@@ -40,15 +40,15 @@ run config: (just edit with your own details)
 
 OPEN SSH TERMUX
 curl ifconfig.co
-curl ifconfig.me
- curl icanhazip.com
- 
 
+<pre><code>
 pkg instalk openssh -y
 pkg install nmap -y
 sshd
 nmap localhost
 whoami
+</code></pre>
+<pre><code>
 passwd [whoami]
 ifconfig wlan0
 CONECT SSH
@@ -57,7 +57,7 @@ u0_a391@192.168.1.6:8022
 u0_a4495@
 pass:123
 logout
-
+</code></pre>
 CLOUD SHELL GOOGLE ON TERMUX
 
 GOOGLE CLOUD CONSOLE/SHELL OPEN SSH USING GCLOUD IN TERMUX
@@ -74,9 +74,14 @@ pkg install openssh
 pkg install python
 
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-354.0.0-linux-arm.tar.gz
+</code></pre>
+Linux PC 
 
-Linux PC curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-358.0.0-linux-x86_64.tar.gz
-
+<pre><code>
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-358.0.0-linux-x86_64.tar.gz
+</code></pre>
+Continue Unzip
+<pre><code>
 tar -zxvf google-cloud-sdk-354.0.0-linux-arm.tar.gz
 </code></pre>
 START LOGIN SHELL
